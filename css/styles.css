@@ -1,0 +1,256 @@
+:root {
+  --background-color-dark: #2f303a;
+  --background-color-grey: #f5f4fa;
+  --background-color-white: #ffffff;
+  --title-color: #212121;
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --color-accent: #2196f3;
+  --logo-color: #000000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+.header__nav {
+  background-color: var(--background-color-white);
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.header__logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.logo-web {
+  color: var(--color-accent);
+}
+
+.header__nav-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-color);
+}
+
+.header__nav-list-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-accent);
+}
+
+.header__contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.header__contacts-item:hover,
+.header__contacts-item:focus,
+.header__nav-list-item:hover,
+.header__nav-list-item:focus {
+  color: var(--color-accent);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--background-color-dark);
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.hero__button {
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* About us */
+
+.about-us {
+  background-color: var(--background-color-white);
+}
+
+.about-us__advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.about-us__advantages-paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.our-team__title,
+.about-us__services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-color);
+}
+
+/* Our team */
+
+.our-team {
+  background-color: var(--background-color-grey);
+}
+
+.our-team__list-item {
+  background-color: var(--background-color-white);
+}
+
+.our-team__list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.our-team__list-item-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--background-color-dark);
+}
+
+.footer__logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.footer__logo:hover,
+.footer__logo:focus {
+  color: var(--color-accent);
+}
+
+.logo-studio {
+  color: var(--secondary-text-color);
+}
+
+.footer__contacts-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+
+.footer__contacts-item {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__contacts-item:hover,
+.footer__contacts-item:focus {
+  color: var(--color-accent);
+}
+/* Portfolio*/
+
+.works__filter-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-color);
+  background-color: var(--background-color-grey);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.works__filter-button:focus,
+.works__filter-button:hover {
+  color: var(--secondary-text-color);
+  background-color: var(--color-accent);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.works__list-item {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.works__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.works__paragraph {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
