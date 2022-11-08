@@ -15,20 +15,38 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header__nav {
-  background-color: var(--background-color-white);
-  letter-spacing: 0.02em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .link {
   text-decoration: none;
 }
 
-.list {
-  list-style: none;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid black;
 }
 
 /* Header */
+.header {
+  background-color: rebeccapurple;
+}
 
 .header__logo {
   font-family: 'Raleway', sans-serif;
@@ -37,10 +55,21 @@ body {
   line-height: 1.3;
   letter-spacing: 0.03em;
   color: var(--logo-color);
+  display: inline-block;
+  outline: 2px solid red;
 }
 
 .logo-web {
   color: var(--color-accent);
+}
+
+.header__nav {
+  background-color: var(--background-color-white);
+  letter-spacing: 0.02em;
+}
+
+.header__nav-list {
+  outline: 2px solid orange;
 }
 
 .header__nav-list-item {
@@ -55,6 +84,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--color-accent);
+}
+
+.header-contacts {
+  outline: 2px solid green;
 }
 
 .header__contacts-item {
@@ -75,6 +108,9 @@ body {
 
 .hero {
   background-color: var(--background-color-dark);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: yellow;
 }
 
 .hero__title {
@@ -85,6 +121,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  background-color: red;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__button {
@@ -103,12 +143,18 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* About us */
 
 .about-us {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-color-white);
+  background-color: skyblue;
 }
 
 .about-us__advantages-title {
@@ -124,8 +170,8 @@ body {
   line-height: 1.7;
 }
 
-.our-team__title,
 .about-us__services-title {
+  margin-top: 118px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -136,7 +182,17 @@ body {
 /* Our team */
 
 .our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-color-grey);
+}
+
+.our-team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-color);
 }
 
 .our-team__list-item {
@@ -160,6 +216,8 @@ body {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-color-dark);
 }
 
@@ -182,6 +240,7 @@ body {
 }
 
 .footer__contacts-adress {
+  margin-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -189,6 +248,7 @@ body {
 }
 
 .footer__contacts-item {
+  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -248,7 +308,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
