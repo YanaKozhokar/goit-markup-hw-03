@@ -176,22 +176,22 @@ ul {
   cursor: pointer;
 }
 
-/* About us */
+/* Advantages */
 
-.about-us {
+.advantages {
   background-color: var(--background-color-white);
 }
 
-.about-us__advantages-list {
+.advantages__list {
   display: flex;
   gap: 30px;
 }
 
-.about-us__advantages-item {
+.advantages__item {
   width: 270px;
 }
 
-.about-us__advantages-title {
+.advantages__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.16;
@@ -199,10 +199,16 @@ ul {
   color: var(--title-color);
 }
 
-.about-us__advantages-paragraph {
+.advantages__paragraph {
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.7;
+}
+
+/* About us */
+
+.about-us.section {
+  padding-top: 0;
 }
 
 .about-us__services-title {
@@ -320,6 +326,7 @@ ul {
 }
 
 .works__filter-button {
+  padding: 6px 22px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -351,15 +358,20 @@ ul {
 .works__list-item {
   width: 370px;
   background: #ffffff;
-  border-bottom: 1px solid #eeeeee;
+}
+
+.works__img {
+  display: block;
 }
 
 .works__description {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .works__title {
-  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
