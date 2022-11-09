@@ -306,14 +306,18 @@ ul {
 
 .footer__contacts-item {
   margin-top: 9px;
+}
+
+.footer__link {
+  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__contacts-item:hover,
-.footer__contacts-item:focus {
+.footer__link:hover,
+.footer__link:focus {
   color: var(--color-accent);
 }
 
