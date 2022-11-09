@@ -351,7 +351,7 @@ ul {
 .works__list-item {
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .works__description {
